@@ -1,0 +1,18 @@
+/* Css for our home page */
+.container{
+    border: 1px solid red;
+    width: 80%;
+    margin: 2% auto;
+    padding: 4% 0;
+}
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+/* CSS for NavBar */
+.logo{
+    width: 10%;
+    border: 1px solid red;
+}
+/* CSs For NAvBar */
