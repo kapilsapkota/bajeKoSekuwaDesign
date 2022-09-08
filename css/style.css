@@ -1,8 +1,12 @@
-/* Css for our home page */
+/* 
+    Author : Kapil Sapkota
+    Contact : kapilsapkota1001@gmail.com
+
+/* Css for All*/
 .container{
     border: 1px solid red;
     width: 80%;
-    margin: 2% auto;
+    margin: 0 auto;
     padding: 1%;
 }
 *{
@@ -22,9 +26,26 @@ a{
     text-decoration: none;
     color: #ff6b81;
 }
+a:hover{
+    color : #ff4757;
+}
 .clearfix{
     clear: both;
     float: none;
+}
+.btn{
+    padding: 1% ;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+}
+h2{
+    color:#57606f;
+    margin-bottom: 1%;
 }
 
 /* CSS for NavBar */
@@ -33,11 +54,42 @@ a{
     float: left;
     border: 1px solid red;
 }
+.menu{
+    line-height: 60px;;
+}
 .menu ul{
     list-style-type: none;
 }
 .menu ul li{
     display: inline;
-    padding: 2%;
+    padding: 0 1%;
+    font-weight: bold;
 }
 /* CSs For NAvBar */
+
+/* CSS for search bar */
+.search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7% 0;
+    background-position: center;
+}
+.search input[type=search]{
+    width: 50%;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+.card{
+    border: 1px solid red;
+    width: 25%;
+    margin: 0 4%;
+    float: left;
+}
