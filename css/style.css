@@ -16,11 +16,17 @@
 .img-responsive{
     width: 100%;
 }
+.img-rounded{
+    border-radius: 10px;
+}
 .text-right{
     text-align: right;
 }
 .text-center{
     text-align: center;
+}
+.text-white{
+    color: white;
 }
 a{
     text-decoration: none;
@@ -45,7 +51,10 @@ a:hover{
 }
 h2{
     color:#57606f;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.3rem;
 }
 
 /* CSS for NavBar */
@@ -89,7 +98,36 @@ h2{
 }
 .card{
     border: 1px solid red;
-    width: 25%;
-    margin: 0 4%;
+    width: 28%;
+    margin: 2%;
     float: left;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    left: 45%;
+    bottom: 40px;
+}
+
+/* CSS for Food menu */
+.food-menu{
+    padding: 4% 0;
+}
+.box{
+    border: 1px solid red;
+    width: 43%;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+}
+.box-img{
+    width: 20%;
+    float: left;
+}
+.box-desc{
+    width: 70%;
+   float:left;
+    margin: 2%;
 }
