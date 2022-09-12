@@ -4,7 +4,6 @@
 
 /* Css for All*/
 .container{
-    border: 1px solid red;
     width: 80%;
     margin: 0 auto;
     padding: 1%;
@@ -49,6 +48,9 @@ a:hover{
     background-color: #ff6b81;
     color: white;
 }
+.btn-primary:hover{
+    color: white;
+}
 h2{
     color:#57606f;
     margin-bottom: 2%;
@@ -61,7 +63,6 @@ h3{
 .logo{
     width: 10%;
     float: left;
-    border: 1px solid red;
 }
 .menu{
     line-height: 60px;;
@@ -97,7 +98,6 @@ h3{
     padding: 4% 0;
 }
 .card{
-    border: 1px solid red;
     width: 28%;
     margin: 2%;
     float: left;
@@ -114,13 +114,15 @@ h3{
 /* CSS for Food menu */
 .food-menu{
     padding: 4% 0;
+    background: whitesmoke;
 }
 .box{
-    border: 1px solid red;
     width: 43%;
     float: left;
     margin: 1%;
     padding: 2%;
+    background: white;
+    border-radius: 10px;
 }
 .box-img{
     width: 20%;
@@ -128,6 +130,67 @@ h3{
 }
 .box-desc{
     width: 70%;
-   float:left;
+    float:left;
     margin: 2%;
+}
+.item-price{
+    font-size: 1.3rem;
+    padding: 1% 0;
+}
+.item-desc{
+    font-size: 1rem;
+    color: gray;
+    padding-bottom: 1%;
+}
+.social{
+    padding: 4% 0;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 0 1%;
+}
+
+/* Responsive or Mobile Devices */
+@media screen and (max-width: 728px) {
+    .logo{
+        width: 80%;
+        float: none;
+        padding: 1% 0;
+    }
+    .menu{
+        width: 90%;
+        font-size: 1rem;
+        float: none;
+        text-align: center!important;
+        font-weight: unset;
+    }
+    .search{
+        padding: 10% 0;
+    }
+    .search input[type=search]{
+        width: 90%;
+        padding: 2% 0;
+        margin: 4% 0;
+        font-size: 1rem;
+        line-height: 10px;
+    }
+    .btn{
+        width: 90%;
+    }
+    .categories{
+        padding: 10% 0;
+    }
+    .card{
+        width: 90%;
+        padding: 0 5%;
+    }
+    .float-text{
+        left: 40%;
+    }
+    .food-menu{
+        padding: 10% 0;
+    }
 }
