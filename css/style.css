@@ -152,16 +152,44 @@ h3{
     display: inline;
     padding: 0 1%;
 }
+.contact-heading{
+    padding: 3% 0;
+}
+.form-horizontal{
+    width: 60%;
+    margin: 4% auto;
+    padding: 1%;
+    background-color: whitesmoke;
+}
+.form-horizontal label{
+    width: 100%;
+    padding: 10% 0;
+    margin: 14% 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.form-control{
+    border: none;
+    width: 98%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1% auto;
+}
+.form-horizontal button{
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 2%;
+}
 
 /* Responsive or Mobile Devices */
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 768px) {
     .logo{
         width: 80%;
         float: none;
         padding: 1% 0;
     }
     .menu{
-        width: 90%;
         font-size: 1rem;
         float: none;
         text-align: center!important;
@@ -191,6 +219,20 @@ h3{
         left: 40%;
     }
     .food-menu{
+        padding: 10% 0;
+    }
+    h2{
+        padding: 10% 0;
+    }
+    .box{
+        width: 90%;
+        padding: 4%;
+        margin-bottom: 15px;
+    }
+    h3 {
+        font-size: 0.9rem;
+    }
+    .social{
         padding: 10% 0;
     }
 }
